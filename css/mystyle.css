@@ -1,0 +1,136 @@
+html {
+    background-color: grey;
+}
+
+div {
+    background-color:gainsboro;
+}
+
+/***Laptop**/
+
+@media screen and (min-width:993px) {
+    p {
+        color:red;
+    }
+    
+    section {
+    width: 80%;
+    padding: 10px;
+    margin:0 auto;
+}
+    
+    .header {
+    width:96.5%;
+    padding: 20px;
+    margin:0 auto;
+    display: inline-block;
+    position: relative;
+    }
+    
+    .row2 {
+        white-space: nowrap;
+        max-width: 99%;
+        background-color: grey;
+    }
+    
+    .secondary {
+    width:20%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    }
+    
+    .content {
+    width:47.2%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    }
+    
+    .extras {
+    width:20%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    }   
+}
+
+/***Tablet**/
+
+@media screen and (min-width:769px)and (max-width:992px) {
+    p {
+        color:purple;
+    }
+    
+     section {
+    width: 80%;
+    margin:0 auto;
+}
+    
+    .header {
+    width:96.5%;
+    padding: 20px;
+    margin:0 auto;
+    display: inline-block;
+    }
+    
+    .row2 {
+        white-space: nowrap;
+        max-width: 99%;
+        background-color: grey;
+    }
+    
+    
+    .secondary {
+    width:45.2%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    }
+    
+    .content {
+    width:45.2%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    }
+    
+    .extras {
+    width:20%;
+    height: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-right:1%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+    display: none;
+    }   
+}
+
